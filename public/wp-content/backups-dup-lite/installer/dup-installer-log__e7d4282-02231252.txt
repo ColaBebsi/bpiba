@@ -1,0 +1,511 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 09:13:19
+* VERSION: 1.3.36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.18                                |7.4.3
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2020-07-02 23:12:52
+WP VERSION__________: 5.4.2
+DUP VERSION_________: 1.3.36
+DB__________________: 10.3.23
+DB TABLES___________: 19
+DB ROWS_____________: 6,134
+DB FILE SIZE________: 32.27MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.3 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.3
+DOC ROOT____________: "C:/xampp/htdocs/colabebsi"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/colabebsi/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/colabebsi/20200702_bonnieracademy_[HASH]_20200702231252_archive.daf"
+SIZE________________: 96.58MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+>>> DupArchive Extraction Complete
+
+--------------------------------------
+DUPARCHIVE EXTRACTION STATUS
+--------------------------------------
+Archive extracted with no errors.
+
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 09:13:19 - RUNTIME: 0.0050 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'colabebsi'@'localhost' (using password: YES) [CODE:2|FILE:C:\xampp\htdocs\colabebsi\dup-installer\classes\class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'colabebsi'@'localhost' (using password: YES)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) [CODE:2|FILE:C:\xampp\htdocs\colabebsi\dup-installer\classes\class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'root'@'localhost' (using password: YES)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) [CODE:2|FILE:C:\xampp\htdocs\colabebsi\dup-installer\classes\class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'root'@'localhost' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 09:16:36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.11 -- Build Server: 10.3.23
+FILE SIZE:	dup-database__[HASH].sql (22.53MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/colabebsi/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:C:\xampp\htdocs\colabebsi\dup-installer\ctrls\ctrl.s2.dbinstall.php|LINE:392]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	200
+
+wpuy_actionscheduler_actions: (40)
+wpuy_actionscheduler_claims: (0)
+wpuy_actionscheduler_groups: (2)
+wpuy_actionscheduler_logs: (118)
+wpuy_commentmeta: (0)
+wpuy_comments: (1)
+wpuy_duplicator_packages: (0)
+wpuy_links: (0)
+wpuy_options: (266)
+wpuy_postmeta: (4849)
+wpuy_posts: (760)
+wpuy_term_relationships: (49)
+wpuy_term_taxonomy: (6)
+wpuy_termmeta: (3)
+wpuy_terms: (6)
+wpuy_user_registration_sessions: (0)
+wpuy_usermeta: (31)
+wpuy_users: (1)
+wpuy_wpforms_tasks_meta: (14)
+Removed '37' cache/transient rows
+
+INSERT DATA RUNTIME: 3.1356 sec.
+STEP-2 COMPLETE @ 09:16:39 - RUNTIME: 3.1497 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 09:17:01
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Bonnier Academy"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/oidxpphy/public_html"
+path_new______________: "C:/xampp/htdocs/colabebsi"
+siteurl_______________: "http://localhost/colabebsi"
+url_old_______________: "http://colabebsi.com"
+url_new_______________: "http://localhost/colabebsi"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wpuy_actionscheduler_actions"____________________[ROWS:    40][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oidxpphy/public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  2:"\/home\/oidxpphy\/public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  3:"%2Fhome%2Foidxpphy%2Fpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  4:"\home\oidxpphy\public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  5:"\\home\\oidxpphy\\public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  6:"%5Chome%5Coidxpphy%5Cpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  7:"//colabebsi.com" =================================> "//localhost/colabebsi"
+	SEARCH  8:"\/\/colabebsi.com" ===============================> "\/\/localhost\/colabebsi"
+	SEARCH  9:"%2F%2Fcolabebsi.com" =============================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 10:"//www.colabebsi.com" =============================> "//localhost/colabebsi"
+	SEARCH 11:"\/\/www.colabebsi.com" ===========================> "\/\/localhost\/colabebsi"
+	SEARCH 12:"%2F%2Fwww.colabebsi.com" =========================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 13:"https://localhost/colabebsi" =====================> "http://localhost/colabebsi"
+	SEARCH 14:"https:\/\/localhost\/colabebsi" ==================> "http:\/\/localhost\/colabebsi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcolabebsi" =============> "http%3A%2F%2Flocalhost%2Fcolabebsi"
+
+EVALUATE TABLE: "wpuy_actionscheduler_claims"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpuy_actionscheduler_groups"_____________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oidxpphy/public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  2:"\/home\/oidxpphy\/public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  3:"%2Fhome%2Foidxpphy%2Fpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  4:"\home\oidxpphy\public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  5:"\\home\\oidxpphy\\public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  6:"%5Chome%5Coidxpphy%5Cpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  7:"//colabebsi.com" =================================> "//localhost/colabebsi"
+	SEARCH  8:"\/\/colabebsi.com" ===============================> "\/\/localhost\/colabebsi"
+	SEARCH  9:"%2F%2Fcolabebsi.com" =============================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 10:"//www.colabebsi.com" =============================> "//localhost/colabebsi"
+	SEARCH 11:"\/\/www.colabebsi.com" ===========================> "\/\/localhost\/colabebsi"
+	SEARCH 12:"%2F%2Fwww.colabebsi.com" =========================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 13:"https://localhost/colabebsi" =====================> "http://localhost/colabebsi"
+	SEARCH 14:"https:\/\/localhost\/colabebsi" ==================> "http:\/\/localhost\/colabebsi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcolabebsi" =============> "http%3A%2F%2Flocalhost%2Fcolabebsi"
+
+EVALUATE TABLE: "wpuy_actionscheduler_logs"_______________________[ROWS:   118][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oidxpphy/public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  2:"\/home\/oidxpphy\/public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  3:"%2Fhome%2Foidxpphy%2Fpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  4:"\home\oidxpphy\public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  5:"\\home\\oidxpphy\\public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  6:"%5Chome%5Coidxpphy%5Cpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  7:"//colabebsi.com" =================================> "//localhost/colabebsi"
+	SEARCH  8:"\/\/colabebsi.com" ===============================> "\/\/localhost\/colabebsi"
+	SEARCH  9:"%2F%2Fcolabebsi.com" =============================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 10:"//www.colabebsi.com" =============================> "//localhost/colabebsi"
+	SEARCH 11:"\/\/www.colabebsi.com" ===========================> "\/\/localhost\/colabebsi"
+	SEARCH 12:"%2F%2Fwww.colabebsi.com" =========================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 13:"https://localhost/colabebsi" =====================> "http://localhost/colabebsi"
+	SEARCH 14:"https:\/\/localhost\/colabebsi" ==================> "http:\/\/localhost\/colabebsi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcolabebsi" =============> "http%3A%2F%2Flocalhost%2Fcolabebsi"
+
+EVALUATE TABLE: "wpuy_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpuy_comments"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oidxpphy/public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  2:"\/home\/oidxpphy\/public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  3:"%2Fhome%2Foidxpphy%2Fpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  4:"\home\oidxpphy\public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  5:"\\home\\oidxpphy\\public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  6:"%5Chome%5Coidxpphy%5Cpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  7:"//colabebsi.com" =================================> "//localhost/colabebsi"
+	SEARCH  8:"\/\/colabebsi.com" ===============================> "\/\/localhost\/colabebsi"
+	SEARCH  9:"%2F%2Fcolabebsi.com" =============================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 10:"//www.colabebsi.com" =============================> "//localhost/colabebsi"
+	SEARCH 11:"\/\/www.colabebsi.com" ===========================> "\/\/localhost\/colabebsi"
+	SEARCH 12:"%2F%2Fwww.colabebsi.com" =========================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 13:"https://localhost/colabebsi" =====================> "http://localhost/colabebsi"
+	SEARCH 14:"https:\/\/localhost\/colabebsi" ==================> "http:\/\/localhost\/colabebsi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcolabebsi" =============> "http%3A%2F%2Flocalhost%2Fcolabebsi"
+
+EVALUATE TABLE: "wpuy_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpuy_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpuy_options"____________________________________[ROWS:   266][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oidxpphy/public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  2:"\/home\/oidxpphy\/public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  3:"%2Fhome%2Foidxpphy%2Fpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  4:"\home\oidxpphy\public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  5:"\\home\\oidxpphy\\public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  6:"%5Chome%5Coidxpphy%5Cpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  7:"//colabebsi.com" =================================> "//localhost/colabebsi"
+	SEARCH  8:"\/\/colabebsi.com" ===============================> "\/\/localhost\/colabebsi"
+	SEARCH  9:"%2F%2Fcolabebsi.com" =============================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 10:"//www.colabebsi.com" =============================> "//localhost/colabebsi"
+	SEARCH 11:"\/\/www.colabebsi.com" ===========================> "\/\/localhost\/colabebsi"
+	SEARCH 12:"%2F%2Fwww.colabebsi.com" =========================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 13:"https://localhost/colabebsi" =====================> "http://localhost/colabebsi"
+	SEARCH 14:"https:\/\/localhost\/colabebsi" ==================> "http:\/\/localhost\/colabebsi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcolabebsi" =============> "http%3A%2F%2Flocalhost%2Fcolabebsi"
+
+EVALUATE TABLE: "wpuy_postmeta"___________________________________[ROWS:  4849][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/oidxpphy/public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  2:"\/home\/oidxpphy\/public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  3:"%2Fhome%2Foidxpphy%2Fpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  4:"\home\oidxpphy\public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  5:"\\home\\oidxpphy\\public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  6:"%5Chome%5Coidxpphy%5Cpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  7:"//colabebsi.com" =================================> "//localhost/colabebsi"
+	SEARCH  8:"\/\/colabebsi.com" ===============================> "\/\/localhost\/colabebsi"
+	SEARCH  9:"%2F%2Fcolabebsi.com" =============================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 10:"//www.colabebsi.com" =============================> "//localhost/colabebsi"
+	SEARCH 11:"\/\/www.colabebsi.com" ===========================> "\/\/localhost\/colabebsi"
+	SEARCH 12:"%2F%2Fwww.colabebsi.com" =========================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 13:"https://localhost/colabebsi" =====================> "http://localhost/colabebsi"
+	SEARCH 14:"https:\/\/localhost\/colabebsi" ==================> "http:\/\/localhost\/colabebsi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcolabebsi" =============> "http%3A%2F%2Flocalhost%2Fcolabebsi"
+
+EVALUATE TABLE: "wpuy_posts"______________________________________[ROWS:   760][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oidxpphy/public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  2:"\/home\/oidxpphy\/public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  3:"%2Fhome%2Foidxpphy%2Fpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  4:"\home\oidxpphy\public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  5:"\\home\\oidxpphy\\public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  6:"%5Chome%5Coidxpphy%5Cpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  7:"//colabebsi.com" =================================> "//localhost/colabebsi"
+	SEARCH  8:"\/\/colabebsi.com" ===============================> "\/\/localhost\/colabebsi"
+	SEARCH  9:"%2F%2Fcolabebsi.com" =============================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 10:"//www.colabebsi.com" =============================> "//localhost/colabebsi"
+	SEARCH 11:"\/\/www.colabebsi.com" ===========================> "\/\/localhost\/colabebsi"
+	SEARCH 12:"%2F%2Fwww.colabebsi.com" =========================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 13:"https://localhost/colabebsi" =====================> "http://localhost/colabebsi"
+	SEARCH 14:"https:\/\/localhost\/colabebsi" ==================> "http:\/\/localhost\/colabebsi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcolabebsi" =============> "http%3A%2F%2Flocalhost%2Fcolabebsi"
+
+EVALUATE TABLE: "wpuy_term_relationships"_________________________[ROWS:    49][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oidxpphy/public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  2:"\/home\/oidxpphy\/public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  3:"%2Fhome%2Foidxpphy%2Fpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  4:"\home\oidxpphy\public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  5:"\\home\\oidxpphy\\public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  6:"%5Chome%5Coidxpphy%5Cpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  7:"//colabebsi.com" =================================> "//localhost/colabebsi"
+	SEARCH  8:"\/\/colabebsi.com" ===============================> "\/\/localhost\/colabebsi"
+	SEARCH  9:"%2F%2Fcolabebsi.com" =============================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 10:"//www.colabebsi.com" =============================> "//localhost/colabebsi"
+	SEARCH 11:"\/\/www.colabebsi.com" ===========================> "\/\/localhost\/colabebsi"
+	SEARCH 12:"%2F%2Fwww.colabebsi.com" =========================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 13:"https://localhost/colabebsi" =====================> "http://localhost/colabebsi"
+	SEARCH 14:"https:\/\/localhost\/colabebsi" ==================> "http:\/\/localhost\/colabebsi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcolabebsi" =============> "http%3A%2F%2Flocalhost%2Fcolabebsi"
+
+EVALUATE TABLE: "wpuy_term_taxonomy"______________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oidxpphy/public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  2:"\/home\/oidxpphy\/public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  3:"%2Fhome%2Foidxpphy%2Fpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  4:"\home\oidxpphy\public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  5:"\\home\\oidxpphy\\public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  6:"%5Chome%5Coidxpphy%5Cpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  7:"//colabebsi.com" =================================> "//localhost/colabebsi"
+	SEARCH  8:"\/\/colabebsi.com" ===============================> "\/\/localhost\/colabebsi"
+	SEARCH  9:"%2F%2Fcolabebsi.com" =============================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 10:"//www.colabebsi.com" =============================> "//localhost/colabebsi"
+	SEARCH 11:"\/\/www.colabebsi.com" ===========================> "\/\/localhost\/colabebsi"
+	SEARCH 12:"%2F%2Fwww.colabebsi.com" =========================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 13:"https://localhost/colabebsi" =====================> "http://localhost/colabebsi"
+	SEARCH 14:"https:\/\/localhost\/colabebsi" ==================> "http:\/\/localhost\/colabebsi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcolabebsi" =============> "http%3A%2F%2Flocalhost%2Fcolabebsi"
+
+EVALUATE TABLE: "wpuy_termmeta"___________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oidxpphy/public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  2:"\/home\/oidxpphy\/public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  3:"%2Fhome%2Foidxpphy%2Fpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  4:"\home\oidxpphy\public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  5:"\\home\\oidxpphy\\public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  6:"%5Chome%5Coidxpphy%5Cpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  7:"//colabebsi.com" =================================> "//localhost/colabebsi"
+	SEARCH  8:"\/\/colabebsi.com" ===============================> "\/\/localhost\/colabebsi"
+	SEARCH  9:"%2F%2Fcolabebsi.com" =============================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 10:"//www.colabebsi.com" =============================> "//localhost/colabebsi"
+	SEARCH 11:"\/\/www.colabebsi.com" ===========================> "\/\/localhost\/colabebsi"
+	SEARCH 12:"%2F%2Fwww.colabebsi.com" =========================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 13:"https://localhost/colabebsi" =====================> "http://localhost/colabebsi"
+	SEARCH 14:"https:\/\/localhost\/colabebsi" ==================> "http:\/\/localhost\/colabebsi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcolabebsi" =============> "http%3A%2F%2Flocalhost%2Fcolabebsi"
+
+EVALUATE TABLE: "wpuy_terms"______________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oidxpphy/public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  2:"\/home\/oidxpphy\/public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  3:"%2Fhome%2Foidxpphy%2Fpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  4:"\home\oidxpphy\public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  5:"\\home\\oidxpphy\\public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  6:"%5Chome%5Coidxpphy%5Cpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  7:"//colabebsi.com" =================================> "//localhost/colabebsi"
+	SEARCH  8:"\/\/colabebsi.com" ===============================> "\/\/localhost\/colabebsi"
+	SEARCH  9:"%2F%2Fcolabebsi.com" =============================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 10:"//www.colabebsi.com" =============================> "//localhost/colabebsi"
+	SEARCH 11:"\/\/www.colabebsi.com" ===========================> "\/\/localhost\/colabebsi"
+	SEARCH 12:"%2F%2Fwww.colabebsi.com" =========================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 13:"https://localhost/colabebsi" =====================> "http://localhost/colabebsi"
+	SEARCH 14:"https:\/\/localhost\/colabebsi" ==================> "http:\/\/localhost\/colabebsi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcolabebsi" =============> "http%3A%2F%2Flocalhost%2Fcolabebsi"
+
+EVALUATE TABLE: "wpuy_user_registration_sessions"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpuy_usermeta"___________________________________[ROWS:    31][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oidxpphy/public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  2:"\/home\/oidxpphy\/public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  3:"%2Fhome%2Foidxpphy%2Fpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  4:"\home\oidxpphy\public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  5:"\\home\\oidxpphy\\public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  6:"%5Chome%5Coidxpphy%5Cpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  7:"//colabebsi.com" =================================> "//localhost/colabebsi"
+	SEARCH  8:"\/\/colabebsi.com" ===============================> "\/\/localhost\/colabebsi"
+	SEARCH  9:"%2F%2Fcolabebsi.com" =============================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 10:"//www.colabebsi.com" =============================> "//localhost/colabebsi"
+	SEARCH 11:"\/\/www.colabebsi.com" ===========================> "\/\/localhost\/colabebsi"
+	SEARCH 12:"%2F%2Fwww.colabebsi.com" =========================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 13:"https://localhost/colabebsi" =====================> "http://localhost/colabebsi"
+	SEARCH 14:"https:\/\/localhost\/colabebsi" ==================> "http:\/\/localhost\/colabebsi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcolabebsi" =============> "http%3A%2F%2Flocalhost%2Fcolabebsi"
+
+EVALUATE TABLE: "wpuy_users"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oidxpphy/public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  2:"\/home\/oidxpphy\/public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  3:"%2Fhome%2Foidxpphy%2Fpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  4:"\home\oidxpphy\public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  5:"\\home\\oidxpphy\\public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  6:"%5Chome%5Coidxpphy%5Cpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  7:"//colabebsi.com" =================================> "//localhost/colabebsi"
+	SEARCH  8:"\/\/colabebsi.com" ===============================> "\/\/localhost\/colabebsi"
+	SEARCH  9:"%2F%2Fcolabebsi.com" =============================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 10:"//www.colabebsi.com" =============================> "//localhost/colabebsi"
+	SEARCH 11:"\/\/www.colabebsi.com" ===========================> "\/\/localhost\/colabebsi"
+	SEARCH 12:"%2F%2Fwww.colabebsi.com" =========================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 13:"https://localhost/colabebsi" =====================> "http://localhost/colabebsi"
+	SEARCH 14:"https:\/\/localhost\/colabebsi" ==================> "http:\/\/localhost\/colabebsi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcolabebsi" =============> "http%3A%2F%2Flocalhost%2Fcolabebsi"
+
+EVALUATE TABLE: "wpuy_wpforms_tasks_meta"_________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oidxpphy/public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  2:"\/home\/oidxpphy\/public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  3:"%2Fhome%2Foidxpphy%2Fpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  4:"\home\oidxpphy\public_html" ======================> "C:/xampp/htdocs/colabebsi"
+	SEARCH  5:"\\home\\oidxpphy\\public_html" ===================> "C:\/xampp\/htdocs\/colabebsi"
+	SEARCH  6:"%5Chome%5Coidxpphy%5Cpublic_html" ================> "C%3A%2Fxampp%2Fhtdocs%2Fcolabebsi"
+	SEARCH  7:"//colabebsi.com" =================================> "//localhost/colabebsi"
+	SEARCH  8:"\/\/colabebsi.com" ===============================> "\/\/localhost\/colabebsi"
+	SEARCH  9:"%2F%2Fcolabebsi.com" =============================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 10:"//www.colabebsi.com" =============================> "//localhost/colabebsi"
+	SEARCH 11:"\/\/www.colabebsi.com" ===========================> "\/\/localhost\/colabebsi"
+	SEARCH 12:"%2F%2Fwww.colabebsi.com" =========================> "%2F%2Flocalhost%2Fcolabebsi"
+	SEARCH 13:"https://localhost/colabebsi" =====================> "http://localhost/colabebsi"
+	SEARCH 14:"https:\/\/localhost\/colabebsi" ==================> "http:\/\/localhost\/colabebsi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fcolabebsi" =============> "http%3A%2F%2Flocalhost%2Fcolabebsi"
+--------------------------------------
+SCANNED:	Tables:19 	|	 Rows:6146 	|	 Cells:39478 
+UPDATED:	Tables:4 	|	 Rows:1257 	|	 Cells:1676 
+ERRORS:		0 
+RUNTIME:	4.763600 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""colabebsi_db""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 09:17:06 - RUNTIME: 5.0327 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
