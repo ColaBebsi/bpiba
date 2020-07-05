@@ -1,0 +1,223 @@
+0000.001 (0) Opened log file at time: Sun, 05 Jul 2020 21:36:41 +0000 on http://colabebsi.local
+0000.008 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.5 (cgi-fcgi, Windows NT BNW5CD7236SWX 10.0 build 18363 (Windows 10) AMD64) MySQL: 8.0.16 WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9M | 4M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.011 (0) Free space on disk containing Updraft's temporary directory: 124643.2 MB
+0000.019 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.026 (0) Semaphore (fd, wpuy_options) being initialised
+0000.038 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.047 (0) Set semaphore last lock (fd) time to 2020-07-05 21:36:41
+0000.051 (0) Semaphore lock (fd) complete
+0000.062 (0) Backup run: resumption=0, nonce=6b9adba3b3cb, file_nonce=6b9adba3b3cb begun at=1593985001 (0s ago), job type=backup
+0000.068 (0) Scheduling a resumption (1) after 300 seconds (1593985301) in case this run gets aborted
+0000.086 (0) Checking if we have a zip executable available
+0000.095 (0) Creation of backups of directories: beginning
+0000.111 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.794 (0) Total entities for the zip file: 830 directories, 4673 files (0 skipped as non-modified), 86.9 MB
+0002.824 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0002.985 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 100 files added (on-disk size: 149.6 KB)
+0003.073 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 200 files added (on-disk size: 149.6 KB)
+0003.169 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 300 files added (on-disk size: 149.6 KB)
+0003.234 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 400 files added (on-disk size: 149.6 KB)
+0003.299 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 500 files added (on-disk size: 149.6 KB)
+0003.306 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.3 MB, 4673 files batched, 501 (502) added so far); re-opening (prior size: 149.6 KB)
+0004.078 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 600 files added (on-disk size: 2326.9 KB)
+0004.165 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 700 files added (on-disk size: 2326.9 KB)
+0004.240 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 800 files added (on-disk size: 2326.9 KB)
+0004.314 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 900 files added (on-disk size: 2326.9 KB)
+0004.382 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 1000 files added (on-disk size: 2326.9 KB)
+0004.391 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (15 MB, 4673 files batched, 501 (1003) added so far); re-opening (prior size: 2326.9 KB)
+0006.032 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 1100 files added (on-disk size: 7285.3 KB)
+0006.112 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 1200 files added (on-disk size: 7285.3 KB)
+0006.187 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 1300 files added (on-disk size: 7285.3 KB)
+0006.269 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 1400 files added (on-disk size: 7285.3 KB)
+0006.337 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 1500 files added (on-disk size: 7285.3 KB)
+0006.345 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.8 MB, 4673 files batched, 501 (1504) added so far); re-opening (prior size: 7285.3 KB)
+0007.481 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 1600 files added (on-disk size: 10571.7 KB)
+0007.557 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 1700 files added (on-disk size: 10571.7 KB)
+0007.649 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 1800 files added (on-disk size: 10571.7 KB)
+0007.734 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 1900 files added (on-disk size: 10571.7 KB)
+0007.816 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 2000 files added (on-disk size: 10571.7 KB)
+0007.826 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (20.6 MB, 4673 files batched, 501 (2005) added so far); re-opening (prior size: 10571.7 KB)
+0009.765 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 2100 files added (on-disk size: 16286.8 KB)
+0009.844 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 2200 files added (on-disk size: 16286.8 KB)
+0009.923 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 2300 files added (on-disk size: 16286.8 KB)
+0010.020 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 2400 files added (on-disk size: 16286.8 KB)
+0010.090 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 2500 files added (on-disk size: 16286.8 KB)
+0010.099 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.2 MB, 4673 files batched, 501 (2506) added so far); re-opening (prior size: 16286.8 KB)
+0011.981 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 2600 files added (on-disk size: 20801.7 KB)
+0012.055 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 2700 files added (on-disk size: 20801.7 KB)
+0012.131 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 2800 files added (on-disk size: 20801.7 KB)
+0012.251 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 2900 files added (on-disk size: 20801.7 KB)
+0012.330 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 3000 files added (on-disk size: 20801.7 KB)
+0012.343 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.7 MB, 4673 files batched, 501 (3007) added so far); re-opening (prior size: 20801.7 KB)
+0013.253 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 3100 files added (on-disk size: 21724.6 KB)
+0013.336 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 3200 files added (on-disk size: 21724.6 KB)
+0013.409 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 3300 files added (on-disk size: 21724.6 KB)
+0013.477 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 3400 files added (on-disk size: 21724.6 KB)
+0013.544 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 3500 files added (on-disk size: 21724.6 KB)
+0013.554 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.6 MB, 4673 files batched, 501 (3508) added so far); re-opening (prior size: 21724.6 KB)
+0014.391 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 3600 files added (on-disk size: 22331 KB)
+0014.468 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 3700 files added (on-disk size: 22331 KB)
+0014.542 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 3800 files added (on-disk size: 22331 KB)
+0014.614 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 3900 files added (on-disk size: 22331 KB)
+0014.689 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 4000 files added (on-disk size: 22331 KB)
+0014.703 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.5 MB, 4673 files batched, 501 (4009) added so far); re-opening (prior size: 22331 KB)
+0015.567 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 4100 files added (on-disk size: 23219.5 KB)
+0015.642 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 4200 files added (on-disk size: 23219.5 KB)
+0015.708 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 4300 files added (on-disk size: 23219.5 KB)
+0015.776 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 4400 files added (on-disk size: 23219.5 KB)
+0015.842 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 4500 files added (on-disk size: 23219.5 KB)
+0015.854 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8 MB, 4673 files batched, 501 (4510) added so far); re-opening (prior size: 23219.5 KB)
+0016.934 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip.tmp: 4600 files added (on-disk size: 27568 KB)
+0018.355 (0) Created plugins zip (0) - 28097.4 KB in 18.2 s (1540.6 KB/s) (sha1: 291be23898b16bc4d853541f69afce2cb719c04b, sha256: ce61af879ec8741e507fb4b0199c4ce668931d4b48af8cf74f201894305f63bf)
+0018.372 (0) Beginning creation of dump of themes (split every: 400 MB)
+0018.810 (0) Total entities for the zip file: 171 directories, 638 files (0 skipped as non-modified), 8.6 MB
+0018.911 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0018.998 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0019.124 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0019.222 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0019.321 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0019.335 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.2 MB, 638 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0020.056 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-themes.zip.tmp: 600 files added (on-disk size: 1394.5 KB)
+0020.504 (0) Created themes zip (0) - 3295.2 KB in 2.1 s (1551.9 KB/s) (sha1: 517911d51423530a49cf8b7bea86369081d84dd1, sha256: d254ac002c7c612ad7cddf1cad19d6dea9acd680663036bded3179fd0fde0f72)
+0020.518 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0020.522 (0) Looking for candidates to backup in: C:\Users\moohammad.samaae\Local Sites\colabebsi\app\public/wp-content/uploads
+0020.526 (0) finding files: 2020: adding to list (1)
+0020.531 (0) finding files: astra-sites: adding to list (2)
+0020.535 (0) finding files: elementor: adding to list (3)
+0020.538 (0) finding files: ur-logs: adding to list (4)
+0020.543 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0020.933 (0) Total entities for the zip file: 9 directories, 909 files (0 skipped as non-modified), 81 MB
+0021.029 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0021.095 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0021.156 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0021.230 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.5 MB, 909 files batched, 395 (395) added so far); re-opening (prior size: 0 KB)
+0021.621 (0) A useful amount of data was added after this amount of zip processing: 1.9 s (normalised: 1.9 s, rate: 13530.2 KB/s)
+0021.630 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.9315268993378, normalised_time=1.8920634633854, max_time=21.624441146851, data points known=1, old_max_bytes=26214400, new_max_bytes=179763024)
+0021.644 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-uploads.zip.tmp: 400 files added (on-disk size: 26206 KB)
+0021.708 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-uploads.zip.tmp: 500 files added (on-disk size: 26206 KB)
+0021.769 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-uploads.zip.tmp: 600 files added (on-disk size: 26206 KB)
+0021.832 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-uploads.zip.tmp: 700 files added (on-disk size: 26206 KB)
+0021.893 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-uploads.zip.tmp: 800 files added (on-disk size: 26206 KB)
+0021.956 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (55.1 MB, 909 files batched, 501 (896) added so far); re-opening (prior size: 26206 KB)
+0022.725 (0) Zip: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-uploads.zip.tmp: 900 files added (on-disk size: 82097 KB)
+0024.196 (0) Created uploads zip (0) - 82501.2 KB in 3.6 s (22624.3 KB/s) (sha1: 99ed94e4b7cce9469157c0b654295f23d89bce80, sha256: 4281b0d7635581fd9ef7aa809d022b2db05c76c4af20efe9f0dbf9fed4312fc8)
+0024.210 (0) Beginning backup of other directories found in the content directory (index: 0)
+0024.217 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0024.223 (0) Looking for candidates to backup in: C:\Users\moohammad.samaae\Local Sites\colabebsi\app\public/wp-content
+0024.229 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0024.236 (0) finding files: index.php: adding to list (1)
+0024.243 (0) finding files: plugins: skipping: this is the plugins directory
+0024.249 (0) finding files: themes: skipping: this is the themes directory
+0024.256 (0) finding files: updraft: skipping: this is the updraft directory
+0024.267 (0) finding files: upgrade: skipping: excluded by options
+0024.274 (0) finding files: uploads: skipping: this is the uploads directory
+0024.303 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0024.387 (0) Created others zip (0) - 0.1 KB in 0.1 s (1.4 KB/s) (sha1: 584f1ecfe87b38f54472024ed8816d5d51e3238b, sha256: 36b7f9dcfe248cd2c7a80bd0a10fc7f06d3de61be8a61471b8b010df30874a9d)
+0024.426 (0) Saving backup status to database (elements: 8)
+0024.437 (0) Beginning creation of database dump (WordPress DB)
+0024.489 (0) Table wpuy_options: Total expected rows (approximate): 297
+0024.654 (0) Table wpuy_options: Rows added in this batch (start page: 0; next: finished): 325 in 0.16 seconds
+0024.665 (0) Table wpuy_options: finishing file (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_options.table.gz - 302.2 KB)
+0024.686 (0) Table wpuy_users: Total expected rows (approximate): 0
+0024.695 (0) Table wpuy_users: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0024.704 (0) Table wpuy_users: finishing file (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_users.table.gz - 0.6 KB)
+0024.722 (0) Table wpuy_usermeta: Total expected rows (approximate): 31
+0024.729 (0) Table wpuy_usermeta: Rows added in this batch (start page: 0; next: finished): 33 in 0.00 seconds
+0024.738 (0) Table wpuy_usermeta: finishing file (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_usermeta.table.gz - 1.6 KB)
+0024.758 (0) Table wpuy_actionscheduler_actions: Total expected rows (approximate): 44
+0024.769 (0) Table wpuy_actionscheduler_actions: Rows added in this batch (start page: 0; next: finished): 49 in 0.01 seconds
+0024.781 (0) Table wpuy_actionscheduler_actions: finishing file (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_actionscheduler_actions.table.gz - 2.1 KB)
+0024.802 (0) Table wpuy_actionscheduler_claims: Total expected rows (approximate): 0
+0024.809 (0) Table wpuy_actionscheduler_claims: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0024.817 (0) Table wpuy_actionscheduler_claims: finishing file (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_actionscheduler_claims.table.gz - 0.4 KB)
+0024.836 (0) Table wpuy_actionscheduler_groups: Total expected rows (approximate): 2
+0024.842 (0) Table wpuy_actionscheduler_groups: Rows added in this batch (start page: 0; next: finished): 2 in 0.00 seconds
+0024.851 (0) Table wpuy_actionscheduler_groups: finishing file (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_actionscheduler_groups.table.gz - 0.4 KB)
+0024.873 (0) Table wpuy_actionscheduler_logs: Total expected rows (approximate): 118
+0024.885 (0) Table wpuy_actionscheduler_logs: Rows added in this batch (start page: 0; next: finished): 145 in 0.01 seconds
+0024.894 (0) Table wpuy_actionscheduler_logs: finishing file (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_actionscheduler_logs.table.gz - 1.9 KB)
+0024.909 (0) Table wpuy_commentmeta: Total expected rows (approximate): 0
+0024.916 (0) Table wpuy_commentmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0024.924 (0) Table wpuy_commentmeta: finishing file (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_commentmeta.table.gz - 0.4 KB)
+0024.941 (0) Table wpuy_comments: Total expected rows (approximate): 0
+0024.948 (0) Table wpuy_comments: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0024.956 (0) Table wpuy_comments: finishing file (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_comments.table.gz - 0.7 KB)
+0024.973 (0) Table wpuy_links: Total expected rows (approximate): 0
+0024.980 (0) Table wpuy_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0024.987 (0) Table wpuy_links: finishing file (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_links.table.gz - 0.5 KB)
+0025.006 (0) Table wpuy_postmeta: Total expected rows (approximate): 5514
+0026.407 (0) Table wpuy_postmeta: Rows added in this batch (start page: 0; next: finished): 6143 in 1.40 seconds
+0026.420 (0) Table wpuy_postmeta: finishing file (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_postmeta.table.gz - 1694.3 KB)
+0026.495 (0) Table wpuy_posts: Total expected rows (approximate): 671
+0026.899 (0) Table wpuy_posts: Rows added in this batch (start page: 0; next: finished): 992 in 0.40 seconds
+0026.912 (0) Table wpuy_posts: finishing file (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_posts.table.gz - 272.8 KB)
+0026.941 (0) Table wpuy_term_relationships: Total expected rows (approximate): 49
+0026.951 (0) Table wpuy_term_relationships: Rows added in this batch (start page: 0; next: finished): 49 in 0.00 seconds
+0026.965 (0) Table wpuy_term_relationships: finishing file (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_term_relationships.table.gz - 0.5 KB)
+0026.987 (0) Table wpuy_term_taxonomy: Total expected rows (approximate): 6
+0027.003 (0) Table wpuy_term_taxonomy: Rows added in this batch (start page: 0; next: finished): 6 in 0.01 seconds
+0027.012 (0) Table wpuy_term_taxonomy: finishing file (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_term_taxonomy.table.gz - 0.5 KB)
+0027.043 (0) Table wpuy_termmeta: Total expected rows (approximate): 3
+0027.051 (0) Table wpuy_termmeta: Rows added in this batch (start page: 0; next: finished): 3 in 0.00 seconds
+0027.062 (0) Table wpuy_termmeta: finishing file (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_termmeta.table.gz - 0.4 KB)
+0027.093 (0) Table wpuy_terms: Total expected rows (approximate): 6
+0027.107 (0) Table wpuy_terms: Rows added in this batch (start page: 0; next: finished): 6 in 0.01 seconds
+0027.121 (0) Table wpuy_terms: finishing file (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_terms.table.gz - 0.5 KB)
+0027.149 (0) Table wpuy_user_registration_sessions: Total expected rows (approximate): 0
+0027.158 (0) Table wpuy_user_registration_sessions: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0027.173 (0) Table wpuy_user_registration_sessions: finishing file (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_user_registration_sessions.table.gz - 0.4 KB)
+0027.209 (0) Table wpuy_wpforms_tasks_meta: Total expected rows (approximate): 14
+0027.223 (0) Table wpuy_wpforms_tasks_meta: Rows added in this batch (start page: 0; next: finished): 16 in 0.01 seconds
+0027.236 (0) Table wpuy_wpforms_tasks_meta: finishing file (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_wpforms_tasks_meta.table.gz - 0.6 KB)
+0027.257 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_options.table.gz (1/18): adding to final database dump
+0027.341 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_users.table.gz (2/18): adding to final database dump
+0027.346 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_usermeta.table.gz (3/18): adding to final database dump
+0027.351 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_actionscheduler_actions.table.gz (4/18): adding to final database dump
+0027.357 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_actionscheduler_claims.table.gz (5/18): adding to final database dump
+0027.362 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_actionscheduler_groups.table.gz (6/18): adding to final database dump
+0027.368 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_actionscheduler_logs.table.gz (7/18): adding to final database dump
+0027.374 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_commentmeta.table.gz (8/18): adding to final database dump
+0027.380 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_comments.table.gz (9/18): adding to final database dump
+0027.385 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_links.table.gz (10/18): adding to final database dump
+0027.392 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_postmeta.table.gz (11/18): adding to final database dump
+0027.833 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_posts.table.gz (12/18): adding to final database dump
+0027.932 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_term_relationships.table.gz (13/18): adding to final database dump
+0027.943 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_term_taxonomy.table.gz (14/18): adding to final database dump
+0027.948 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_termmeta.table.gz (15/18): adding to final database dump
+0027.954 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_terms.table.gz (16/18): adding to final database dump
+0027.959 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_user_registration_sessions.table.gz (17/18): adding to final database dump
+0027.965 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db-table-wpuy_wpforms_tasks_meta.table.gz (18/18): adding to final database dump
+0027.983 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db.gz: finished writing out complete database file (2272 KB)
+0028.076 (0) Total database tables backed up: 18 (backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db.gz, size: 2330503, sha1: 638b99cf3df154412a2473a5e9f86ff0c5f53a4d, sha256: cfac4c11bb160e1805205268ba9361ad0309dd7d83a43914d6246d1dfe094fb7)
+0028.103 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0028.106 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0028.111 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0028.115 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-others.zip: others: This file has not yet been successfully uploaded: will queue
+0028.119 (0) backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db.gz: db: This file has not yet been successfully uploaded: will queue
+0028.122 (0) Saving backup history. Total backup size: 113.4 MB
+0028.133 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0028.148 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0028.152 (0) No remote despatch: user chose no remote backup service
+0028.157 (0) Recording as successfully uploaded: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-plugins.zip
+0028.167 (0) Recording as successfully uploaded: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-themes.zip
+0028.174 (0) Recording as successfully uploaded: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-uploads.zip
+0028.183 (0) Recording as successfully uploaded: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-others.zip
+0028.190 (0) Recording as successfully uploaded: backup_2020-07-05-2136_Bonnier_Academy_6b9adba3b3cb-db.gz
+0028.210 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0028.214 (0) Number of backup sets in history: 1; groups (db): 1
+0028.228 (0) Examining (for databases) backup set with group_id=0, nonce=6b9adba3b3cb, datestamp=1593985001 (Jul 05 2020 21:36:41)
+0028.232 (0) This backup set is the backup set just made, so will not be deleted.
+0028.233 (0) Number of backup sets in history: 1; groups (files): 1
+0028.237 (0) Examining (for files) backup set with nonce=6b9adba3b3cb, datestamp=1593985001 (Jul 05 2020 21:36:41)
+0028.237 (0) This backup set is the backup set just made, so will not be deleted.
+0028.241 (0) This backup set is the backup set just made, so will not be deleted.
+0028.241 (0) This backup set is the backup set just made, so will not be deleted.
+0028.242 (0) This backup set is the backup set just made, so will not be deleted.
+0028.242 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0028.246 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0028.257 (0) Resume backup (6b9adba3b3cb, 0): finish run
+0028.269 (0) Decremented the semaphore (fd) by 1
+0028.276 (0) Semaphore (fd) unlocked
+0028.279 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0028.293 (0) No email will/can be sent - the user has not configured an email address.
+0028.299 (0) The backup apparently succeeded and is now complete
